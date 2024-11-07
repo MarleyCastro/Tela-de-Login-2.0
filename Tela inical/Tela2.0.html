@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+</head>
+<style>
+    /* Estilo base */
+
+</style>
+
+<body>
+    <div class="button-login">
+        <h1>Login</h1>
+        <input class="email" type="email" name="Login" placeholder="Email">
+        <input class="password" type="password" name="Password" placeholder="Password">
+        <a href="home.html">
+            <button class="button-save" onclick="input()">Acessar</button>
+        </a>
+        <a href="forget passoword.html" class="forgot-password">Esqueci minha senha</a>
+        <div class="media-social">
+            <img src="/Telalogin2.0/img/apple.png" alt="apple" class="apple">
+            <img src="/Telalogin2.0/img/facebook.png" alt="facebook" class="facebook">
+            <img src="/Telalogin2.0/img/google.png" alt="google" class="google">
+        </div>
+    </div>
+
+    <script>
+        function input() {
+            var email = document.querySelector('.email').value;
+            var password = document.querySelector('.password').value;
+            if (email === "" || password === "") {
+                alert("Por favor, digite o email e senha para acessar o site.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

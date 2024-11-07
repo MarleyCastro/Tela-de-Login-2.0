@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Código de verificação</title>
+</head>
+
+
+
+<body>
+
+    <div class="button-login">
+        <h1>Digite seu código</h1>
+        <h2>Enviado no seu email ! 👍</h2>
+        <input class="email" type="password" name="Login" placeholder="Digite seu código">
+        <a href="Tela2.0.html">
+            <button class="button-save" onclick="return input()">Confirmar</button>
+        </a>
+
+
+    <script>
+        function input() {
+            var email = document.querySelector('.email').value;
+            if (email === "") {
+                alert("Por favor, digite seu email para continuar.");
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/Telalogin2.0/img/1 (2).png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    
+    <title>Car Rental Service</title>
+    
+
+</head>
+<body>
+    <div class="bar">
+        <div class="logo">
+            <img src="/Telalogin2.0/img/1 (2).png" alt="Logo">
+            <h1>Marcou</h1>
+        </div>
+        <div class="menu" title="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="menu-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="Tela2.0.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="bar-on">
+        eu sou uma div
+    </div>
+
+    <div class="car-section">
+        <h2>Car Category</h2>
+        <div class="car-grid">
+            <div class="car-item" >
+                <img src="/Telalogin2.0/img/imagens de carros/Caminhonete.webp" alt="Car 1">
+                <h3>Truck</h3>
+                <p>Comfort and style for your travels.</p>
+                <button>Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="/Telalogin2.0/img/imagens de carros/Compact Car.webp" alt="Car 2">
+                <h3>Compact Car</h3>
+                <p>Perfect for city driving.</p>
+                <button>Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="/Telalogin2.0/img/imagens de carros/SUV.webp" alt="Car 3">
+                <h3>SUV</h3>
+                <p>Power and space for long trips.</p>
+                <button>Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="/Telalogin2.0/img/imagens de carros/luxury car.webp" alt="Car 3">
+                <h3>Luxury Sedan</h3>
+                <p>Power and space for long trips.</p>
+                <button>Rent Now</button>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br><br>
+    <div class="about-me">
+        <h2 class="about-me" style="text-align: center;">About me</h2>
+            <p> Hi, I’m Marley, a junior developer focused on creating stunning illustrations with Illustrator. I’m committed to growing my skills every day, and I’m excited about the journey ahead. With dedication and hard work, I know I’ll achieve my goal of becoming a senior developer. Feeling motivated and ready for the future! 🙌😊
+            <br><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga mollitia sit, blanditiis provident veritatis totam? Quaerat quis libero necessitatibus totam ducimus consequatur at sit, sapiente recusandae eveniet dolorum id. Eos.
+            <br><br><br>
+        
+            </p>
+    </div>
+    <script>
+        // Add interactivity to show/hide the menu when clicked
+        const menuIcon = document.querySelector('.menu-list');
+        const nav = document.querySelector('nav');
+        
+        menuIcon.addEventListener('click', () => {
+            nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>
